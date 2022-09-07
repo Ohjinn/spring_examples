@@ -24,5 +24,5 @@ public class UserDaoTest {
         System.out.println(user1.getPassword());
         System.out.println(user1.getId() + " 조회 성공");
     }
-
+g
 }
