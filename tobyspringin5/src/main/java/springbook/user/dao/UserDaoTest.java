@@ -7,8 +7,9 @@ import java.sql.SQLException;
 public class UserDaoTest {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
-//        UserDao dao = new NUserDao();
-        UserDao dao = new UserDao();
+        ConnectionMaker connectionMaker = new DConnectionMaker();
+
+        UserDao dao = new UserDao(connectionMaker);
 
         User user = new User();
         user.setId("hjin9445");
@@ -24,5 +25,5 @@ public class UserDaoTest {
         System.out.println(user1.getPassword());
         System.out.println(user1.getId() + " 조회 성공");
     }
-g
+
 }
