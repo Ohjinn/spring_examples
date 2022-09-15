@@ -1,4 +1,4 @@
-package springbook.user.dao;
+package springbook.chap1.dao;
 
 import springbook.user.domain.User;
 

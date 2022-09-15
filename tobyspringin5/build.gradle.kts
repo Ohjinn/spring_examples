@@ -16,6 +16,9 @@ dependencies {
     implementation("org.projectlombok:lombok:1.18.24")
     implementation("mysql:mysql-connector-java:8.0.30")
     annotationProcessor("org.projectlombok:lombok:1.18.24")
+    implementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
+    implementation("org.assertj:assertj-core:3.18.1")
+    implementation("org.junit.jupiter:junit-jupiter-engine:5.6.2")
 }
 
 tasks.getByName<Test>("test") {
