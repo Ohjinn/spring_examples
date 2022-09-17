@@ -51,7 +51,4 @@ public class UserDao {
 
         return user;
     }
-
-//    protected abstract Connection getConnection() throws ClassNotFoundException, SQLException;
-
 }
