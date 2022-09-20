@@ -2,6 +2,7 @@ package springbook.user.dao;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import springbook.chap1.dao.UserDao;
 
 @Configuration
 public class DaoFactory {
